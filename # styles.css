@@ -18,3 +18,10 @@ h2 {
 .yt {
     text-decoration: underline;
 }
+/* comment */
+.logo {
+    width: 100px;
+}
+.header {
+    background-color: #f6b15d ;
+}

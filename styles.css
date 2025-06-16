@@ -1,0 +1,11 @@
+body {
+background-color: #4bd8ae ;
+margin: 0px;
+}
+.logo {
+    width: 100px;
+    display: block;
+}
+.header {
+    background-color:rgb(255, 255, 255);
+}

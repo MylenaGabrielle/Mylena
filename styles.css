@@ -1,11 +1,101 @@
+/* theme clours */
+:root {
+/* CSS HSL */
+--emerald: hsla(156, 68%, 46%, 1);
+--verdigris: hsla(179, 48%, 48%, 1);
+--light-cyan: hsla(194, 95%, 92%, 1);
+--electric-blue: hsla(183, 96%, 48%, 1);
+
+}
 body {
-background-color: #4bd8ae ;
+background-color: #40b5b3ff ;
 margin: 0px;
+font-family: "Montserrat", sans-serif;
 }
 .logo {
     width: 100px;
     display: block;
+    background-image: url(logo.png);
+
 }
 .header {
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(209, 203, 203);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.right-nav a {
+    color:rgb(17, 17, 17);
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.right-nav a:hover {
+    color: var(--light-cyan)
+}
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    gap: 30px;
+}
+#search-form {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    max-width: 500px;
+}
+#search-form input {
+    padding: 0.6em;
+    border: 2px solid transparent;
+    border-radius: 10px 0px 0px 10px;
+}
+#search-form button {
+    padding: 0.6em;
+    border: 2px solid transparent;
+    border-radius: 10px 0px 0px 10px;
+    background-color:rgb(155, 155, 155);
+    color:black
+}
+.product-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+}
+.product-nav a {
+    color: rgb(8, 8, 8);
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 1em;
+}
+.home-banner {
+    background-color:rgb(83, 158, 161);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50dvh;
+    background-image: url(dinosaur.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-text {
+    background-color: rgb(29, 73, 51);
+    padding: 1em;
+    color: var(--emerald)
+}
+.banner-text h2 {
+    font-size: 4em;
+}
+.banner-text a {
+    background-color: var(--light-cyan);
+    color:black;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+    padding: 0.5em;
+    text-align: center;
 }

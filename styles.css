@@ -31,6 +31,7 @@ font-family: "Montserrat", sans-serif;
     color:rgb(17, 17, 17);
     font-size: 1.2em;
     text-decoration: none;
+    padding: 0.5em;
 }
 .right-nav a:hover {
     color: var(--light-cyan)
@@ -39,6 +40,7 @@ font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: row;
     margin-right: 30px;
+    margin-left: auto;
     gap: 30px;
 }
 #search-form {
@@ -61,9 +63,15 @@ font-family: "Montserrat", sans-serif;
 }
 .product-nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     min-width: 100%;
+    max-height: 0px;
+    over-flow: hidden;
+    
+}
+.product-nav.open {
+    max-height: 50vh;
 }
 .product-nav a {
     color: rgb(8, 8, 8);

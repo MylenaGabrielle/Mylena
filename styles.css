@@ -119,6 +119,18 @@ font-family: "Montserrat", sans-serif;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+.card-content {
+    padding: 0.5em;
+}
+.card-button {
+    background-color: var(--murrey);
+    color: var (--mint-green);
+    padding: 0.5em;
+    text-decoration: none;
+    display: block;
+    min-width: 100%;
+    text-align: center;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;

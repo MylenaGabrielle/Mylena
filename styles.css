@@ -107,3 +107,13 @@ font-family: "Montserrat", sans-serif;
     padding: 0.5em;
     text-align: center;
 }
+.nav-button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 2em;
+    color: var(--mint-green);
+}
+/* cards */
+.card img {
+    max-width: 100%;
+}

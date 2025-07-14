@@ -6,4 +6,15 @@
   .nav-button {
     display:none;
   }
+  .nav-button {
+    display: none;
+  }
+  .conteainer {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  .card img {
+    aspect-ratio: 6/4;
+  }
 }

@@ -17,4 +17,12 @@
   .card img {
     aspect-ratio: 6/4;
   }
+  .buttom-banner {
+    grid-column: span 3;
+    min-height: 16em;
+  }
+  .footer-nav {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
 }

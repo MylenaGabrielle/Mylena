@@ -119,6 +119,9 @@ font-family: "Montserrat", sans-serif;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+.price::before {
+    content: "$";
+}
 .card-content {
     padding: 0.5em;
 }

@@ -138,3 +138,27 @@ font-family: "Montserrat", sans-serif;
     margin-left: 1em;
     margin-right: 1em;
 }
+</main>
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav a {
+    padding: 1em;
+    text-decoration:none;
+    color: var(--lightgrey);
+}
+.main-footer {
+    background-color: var(--murrey);
+}
+.social-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.social-nav a {
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: var(--mint-green);
+    text-decoration: none;
+}

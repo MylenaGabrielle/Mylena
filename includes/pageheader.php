@@ -15,15 +15,15 @@
         <nav class="right-nav">
             <a href="account.html">
                 <i class="fa-solid fa-user"></i>
-                <span class="sr-only">User Account</span>
+                <span>User Account</span>
             </a>
             <a href="wishlist.html">
                 <i class="fa-solid fa-heart"></i>
-                <span class="sr-only">User Wishlist</span>
+                <span>User Wishlist</span>
             </a>
             <a href="cart.html">
                 <i class="fa-solid fa-cart-shopping"></i>
-                <span class="sr-only">Shopping Cart</span>
+                <span>Shopping Cart</span>
             </a>
         </nav>
         <nav class="product-nav">

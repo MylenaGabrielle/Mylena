@@ -1,18 +1,18 @@
 /* theme colours */
 :root {
     --mint-green: hsla(166, 100%, 93%, 1);
-    --steel-blue: rgb(9, 140, 98);
-    --sandy-brown: rgb(183, 203, 30);
+    --steel-blue: rgb(26, 120, 154);
+    --sandy-brown: rgb(98, 198, 31);
     --raspberry-rose: rgb(151, 98, 115);
-    --murrey: hsla(325, 72%, 31%, 1);
-    --grey: hsl(0, 0%, 51%);
+    --murrey: rgba(73, 218, 223, 0.995);
+    --grey: hsl(0, 1%, 42%);
     --lightgrey: hsl(0, 0%, 90%);
-    --darkgrey: hsl(0, 0%, 20%);
-    --translucent-dark: hsla(0, 0%, 20%, 0.6);
+    --darkgrey: hsla(0, 90%, 31%, 0.856);
+    --translucent-dark: hsla(0, 4%, 75%, 0.712);
 }
 
 body {
-    background-color: var(--mint-green);
+    background-color: var(--translucent-dark);
     margin: 0px;
     font-family: "Montserrat", sans-serif;
 }
@@ -99,7 +99,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 50vh;
-    background-image: url("dinoball.jpg");
+    background-image: url("banner-images/home-banner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

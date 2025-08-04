@@ -2,7 +2,7 @@
 <html lang="en">
 <?php 
 include "src/database.php"; 
-$query = "SELECT id,name,price,description,image FROM Product WHERE category = 'women'";
+$query = "SELECT id,name,price,description,image FROM Product WHERE category = 'men'";
 // prepare statement
 $statement = $connection -> prepare($query);
 $statement -> execute();
@@ -18,7 +18,7 @@ while( $row = $result->fetch_assoc() ) {
 
 <body>
     <?php include "includes/pageheader.php" ?>
-    <div class="women-banner">
+    <div class="men-banner">
         <div class="banner-text">
             <h2>SALE</h2>
             <p>Get massive discounts in our mid-year sale</p>

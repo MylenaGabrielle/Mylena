@@ -23,8 +23,8 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST') {
     $customer_name = $_POST['name'];
     $email = $_POST['email'];
     $product_name = $_POST['product_name'];
-    $price = $_POST['price'];
     $quantity = $_POST['quantity'];
+    $price = $_POST['price'];
     $total = $_POST['total'];
     $date = date('Y-m-d H:i:s');
 
@@ -39,7 +39,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST') {
     VALUES(?,?,?,?,?,?)";
 
     $statement = $connection -> prepare($query);
-    $statement -> bind_param("sssids",$customer_name,$email,$product_name,$price,$quantity,$date);
+    $statement -> bind_param("sssids",$customer_name,$email,$product_name,$quantity,$price,$date);
     $statement -> execute();
     $submitting = true;
 }

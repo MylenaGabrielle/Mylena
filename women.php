@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <?php 
 include "src/database.php"; 
 $query = "SELECT id,name,price,description,image FROM Product WHERE category = 'women'";
@@ -35,19 +37,17 @@ while( $row = $result->fetch_assoc() ) {
             $price = $item['price'];
             // card start
             echo "<div class='card'>";
-            //product image
+            // product image
             echo "<img src='products/$image'>";
-            //card content
+            // card content
             echo "<div class='card-content'>";
             echo "<h4 class='card-title'>$name</h4>";
             echo "<p class='price'>$price</p>";
             // card button
-            echo "<a href='#' class='card-button'>Add to cart</a>";
+            echo "<a href='order.php?product_id=$id' class='card-button'>Order Item</a>";
             echo "</div>";
-
+            
             echo "</div>";
-            //}
-            // echo "<div class='card'></div>";
         }
         ?>
         <div class="bottom-banner">

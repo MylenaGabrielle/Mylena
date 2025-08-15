@@ -35,19 +35,17 @@ while( $row = $result->fetch_assoc() ) {
             $price = $item['price'];
             // card start
             echo "<div class='card'>";
-            //product image
-            echo "<img src='products/$image'>";
-            //card content
+            // product image
+            echo "<img src='products/men/$image'>";
+            // card content
             echo "<div class='card-content'>";
             echo "<h4 class='card-title'>$name</h4>";
             echo "<p class='price'>$price</p>";
             // card button
-            echo "<a href='#' class='card-button'>Add to cart</a>";
+            echo "<a href='order.php?product_id=$id' class='card-button'>Order item</a>";
             echo "</div>";
-
+            
             echo "</div>";
-            //}
-            // echo "<div class='card'></div>";
         }
         ?>
         <div class="bottom-banner">

@@ -99,7 +99,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 50vh;
-    background-image: url("banner-images/home-banner.jpg");
+    background-image: url("dinoball.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,12 +111,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 50vh;
-    background-image: url("banner-images/women-banner.jpg");
+    background-image: url("banner-images/women-soccer.jfif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .men-banner {
     background-color: var(--steel-blue);
     display: flex;
@@ -242,23 +241,26 @@ body {
     height: 1px;
     overflow: hidden;
 }
+
 #contact-form label{
-    display:block;
+    display: block;
 }
-#contact-form input, #contact-form textarea {
-    display:block;
+#contact-form input, 
+#contact-form textarea,
+#order-form input,
+#order-form textarea {
+    display: block;
     margin-bottom: 1em;
     padding: 0.5em;
-    width: 100%;
+    width:100%;
     border: solid 1px #5b5b5b;
     border-radius: 0.3em;
     box-sizing: border-box;
 }
-#contact-form {
+#contact-form, #order-form {
     grid-column-start: 2;
 }
 .buttons {
     display: flex;
     justify-content: space-between;
-
-}
+}    
